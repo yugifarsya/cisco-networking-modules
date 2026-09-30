@@ -15,6 +15,7 @@ Each lab includes a blank topology file (`.pkt`) to practice with, a solved conf
 ## Planned Labs & Topics
 
 ### Volume 1: Switching
+- Prologue: 
 - Lab 01: Initial Switch Setup & Port Security
 - Lab 02: VLAN Creation, Access Ports, and 802.1Q Trunks
 - Lab 03: Spanning Tree Protocol (STP) behavior
