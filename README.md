@@ -12,20 +12,25 @@ Each lab includes a blank topology file (`.pkt`) to practice with, a solved conf
 - **Status:** In progress (updating alongside my CCNA preparation)
 - **Module Language:** Bahasa Indonesia (guides/explanations), English (topology documentation & repository overview)
 
-## Planned Labs & Topics
+## Lab Index
 
-### Volume 1: Switching
-- Prologue: 
-- Lab 01: Initial Switch Setup & Port Security
-- Lab 02: VLAN Creation, Access Ports, and 802.1Q Trunks
-- Lab 03: Spanning Tree Protocol (STP) behavior
-- Lab 04: Inter-VLAN Routing (Router-on-a-Stick & SVI on L3 switches)
-
-### Volume 2: Routing
-- Lab 01: IPv4 Addressing, VLSM, and Static Routes
-- Lab 02: Single-Area OSPF configuration and neighbor states
-- Lab 03: Standard and Extended Access Control Lists (ACLs)
-- Lab 04: NAT and PAT implementation
+| Chapter | Topic | What We Practice |
+| :--- | :--- | :--- |
+| Lab 01 | Basic VLAN | Isolating broadcast domains using access ports (VLAN 10 & 20) |
+| Lab 02 | 802.1Q Trunking | Passing multiple VLANs across a single inter-switch cable |
+| Lab 03 | Native VLAN & Tagging | Fixing traffic leakage, PVID mismatch, and isolating Native VLAN |
+| Challenge 03 | Native VLAN Challenge | Multi-switch troubleshooting with transit VLAN drops |
+| Lab 04 | Allowed VLAN | Filtering trunk traffic using `add`, `remove`, and `except` |
+| Lab 05 | VTP (VLAN Trunking Protocol) | Syncing VLANs via Server-Client-Transparent & avoiding revision bombs |
+| Lab 06 | Inter-VLAN Routing | Router-on-a-Stick (RoAS) with 802.1Q sub-interfaces & gateways |
+| Lab 07 | Switch Virtual Interface (SVI) | Giving Layer 2 switches an IP & understanding line protocol status |
+| Lab 08 | User & Privilege Management | Creating local users, testing Privilege 1 vs 15, and `secret` hashing |
+| Lab 09.1 | Out-of-Band (Console) | Initial switch configuration via physical rollover cable |
+| Lab 09.2 | Remote Access (Telnet) | Setting up VTY lines and understanding plaintext security risks |
+| Lab 09.3 | Secure Remote (SSH) | Hardening VTY with RSA crypto keys (1024-bit) and local login |
+| Lab 10 | Port Security | MAC address locking & violation modes |
+| Lab 11 | EtherChannel | Link aggregation architectures via LACP |
+| Lab 12 | Spanning Tree Protocol (STP) | Loop prevention & Root Bridge election |
 
 ## How to Follow the Labs
 1. Open the initial `.pkt` file in Cisco Packet Tracer.
